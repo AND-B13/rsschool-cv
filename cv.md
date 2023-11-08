@@ -43,3 +43,14 @@ function findShort(s) {
     })
 }
 ```
+
+### Education:
+ 1. [Skillbox](https://skillbox.ru/)(basic completed, advanced in progress)
+ ![Progress of learning on Skillbox](./img/Skillbox.JPG)
+ 2. Intensive marathon 5 days from [Result School](https://result.school/)(completed)
+ 3. [iTGid](https://itgid.info/ru) codeJS2.0(completed)
+ 4. [RS School](https://rs.school/) JavaScript/Front-end. Stage 1(advanced in progress)
+
+### Languages:
+ * **English** - А2: Pre-Intermediate
+ * **Russian** - Native
