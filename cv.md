@@ -26,3 +26,20 @@ I feel confident in stating that my determination to learn and my fortitude are 
 * *VS Code*
 * *Figma, Adobe Photoshop*
 * *Tilda*
+
+### Code example:
+**Shortest Word:** 
+*Simple, given a string of words, return the length of the shortest word(s).*
+*String will never be empty and you do not need to account for different data types.*
+
+```
+function findShort(s) {
+    return s.split(' ').reduce((one, two) => {
+        if (typeof one === 'number') {
+            return Math.min(one, two.length);
+        } else {
+            return Math.min(one.length, two.length);
+        }
+    })
+}
+```
