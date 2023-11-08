@@ -1,0 +1,84 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before *::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('Muller'),
+    url('../font/MullerExtraBold.woff2') format('woff2'),
+    url('../font/MullerExtraBold.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('MullerMedium'),
+    url('../font/MullerMedium.woff2') format('woff2'),
+    url('../font/MullerMedium.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('MullerLight'),
+    url('../font/MullerLight.woff2') format('woff2'),
+    url('../font/MullerLight.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('MullerMediumItalic'),
+    url('../font/MullerMediumItalic.woff2') format('woff2'),
+    url('../font/MullerMediumItalic.woff') format('woff');
+  font-weight: 400;
+  font-style: italic;;
+}
+
+@font-face {
+  font-family: 'Muller';
+  src: local('MullerLightItalic'),
+    url('../font/MullerLightItalic.woff2') format('woff2'),
+    url('../font/MullerLightItalic.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;;
+}
+
+:root {
+  --color-light: #E5E5E5;
+}
+
+.list-reset {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.btn-reset {
+  padding: 0;
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+body {
+  min-width: 320px;
+  font-family: "Muller", sans-serif;
+}
